@@ -33,12 +33,12 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    # await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
+    # await message.reply_text("Enter Correct Link No One Gonna Help You 🤣🤣🤣🤣", quote=True)
     #channel_id = str(AUTH_CHANNEL)[4:]
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""⚡ JOIN TORRENT MIRROR  GROUP\n\n 👉Link: <a href="https://t.me/joinchat/R9G7tRrp8yT0TKMQRYRRpQ">Universal Fast Mirror</a>""", disable_web_page_preview=True)
+    await message.reply_text("""⚡ JOIN OFFICIAL CHANNEL\n\n 👉Link: <a href="https://t.me/HINDI_HD_MOOVIES">HINDI HD MOOVIES</a>""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
