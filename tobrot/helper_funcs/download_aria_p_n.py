@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 t-*-
 # (c) Shrimadhav U K | gautamajay52
 
 # the logging things
@@ -454,7 +454,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
  
                 # msg += f"\n<b>○Status:</b> {file.status}"
                 msg += f"\n<b>○Left:</b> {file.eta_string()}"
-                msg += f"\n<b>○GID:</b> <code>{gid}</code>\n\n<b>©:@Technical_Jigar</b>"
+                msg += f"\n<b>○GID:</b> <code>{gid}</code>\n\n<b>©:@Insane_Robot</b>"
                 inline_keyboard = []
                 ikeyboard = []
                 ikeyboard.append(InlineKeyboardButton("📍Cancel Processing ⛔", callback_data=(f"cancel {gid}").encode("UTF-8")))
