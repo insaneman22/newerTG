@@ -38,16 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""/gen - upload Magnet/direct link to telegram file: reply to a link.
-/ytdl - upload from any Youtube-dl supportd url to telegram file: reply to a link.
-/pytdl -upload from any Youtube-dl supportd playlist to telegram files: reply to a link.
-/savethumbnail - set custom thumbnail: send a pic first than replay on that pic.
-/clearthumbnail - clear default thumbnail.
-/status - Show all download status.
-/cancel - cancel upload:reply to your sent link.
-/log - get log file.
-/help - to see this msg.
-⚡ JOIN TORRENT MIRROR  GROUP\n\n 👉Link: <a href="https://t.me/Its_My_leech">My Leech Data</a>""", disable_web_page_preview=True))
+    await message.reply_text("""⚡ JOIN OFFICIAL CHANNEL\n\n 👉Link: <a href="https://t.me/HINDI_HD_MOOVIES">HINDI HD MOOVIES</a>""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
